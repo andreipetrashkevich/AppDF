@@ -27,7 +27,7 @@
       <xsd:element name="price" type="type-price" />
       <xsd:element name="apk-files" type="type-apkfiles" />
       <xsd:element name="requirements" type="type-requirements" minOccurs="0" />
-      <xsd:element name="testing-instructions" type="type-testinginstructions" minOccurs="0"/>
+      <xsd:element name="testing-instructions" type="type-testinginstructions"/>
       <xsd:element name="consent" type="type-consent" />
       <xsd:element name="customer-support" type="type-customersupport" />
       <xsd:element name="store-specific" type="type-storespecific" minOccurs="0" />
@@ -377,15 +377,16 @@
   <xsd:complexType name="type-apkfiles">
     <xsd:choice minOccurs="1" maxOccurs="unbounded">
       <xsd:element name="apk-file" type="type-attr-localfile" />
+      <xsd:element name="apk-file-with-expansions" type="type-apkfiles-apkfilewithexpansions" />
     </xsd:choice>
   </xsd:complexType>
-  
-   <xsd:complexType name="type-apkfiles-apkfilewithextntion">
-    <xsd:sequence>
-      <xsd:element name="extension" type="type-attr-localfile" maxOccurs="unbounded" />
-    </xsd:sequence>
+
+  <xsd:complexType name="type-apkfiles-apkfilewithexpansions">
+    <xsd:choice minOccurs="1" maxOccurs="unbounded">
+      <xsd:element name="apk-file-with-expansion" type="type-attr-localfile" maxOccurs="unbounded" />
+    </xsd:choice>
   </xsd:complexType>
-  
+    
   <xsd:complexType name="type-requirements">
     <xsd:sequence>
       <xsd:element name="features" type="type-requirements-features" minOccurs="0" />

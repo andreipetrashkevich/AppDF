@@ -542,11 +542,25 @@ Required. No attributes. Value could be either `application` or `game`.
     <td>Games is one item in the application category list</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
     <td>Yes</td>
-    <td>Application Category</td>
+    <td>Category set 1,2</td>
     <td>Yes</td>
-    <td>Games is one item in the application category list</td>
+    <td>Application, Games</td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td>Keywords</td>
+    <td>No</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>Yes</td>
+    <td>Category</td>
+    <td>Yes/td>
+    <td>Application, Games</td>
   </tr>
 </table>
 
@@ -612,10 +626,24 @@ Required. No attributes. AppDF format has its own list of categories for both ga
     <td>Supports multiple categories</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
     <td>Yes</td>
-    <td>Application Category</td>
+    <td>Category set 1,2</td>
     <td>Yes</td>
+    <td>Supports two categories</td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td>Keywords</td>
+    <td>No</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>Yes</td>
+    <td>Category</td>
+    <td>Yes/td>
     <td></td>
   </tr>
 </table>
@@ -677,9 +705,21 @@ Although some stores don't use subcategories AppDF includes as detailed category
     <td>Yes</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>Yes</td>
+    <td>Category set 1,2</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
     <td>No</td>
-    <td></td>
+    <td>Keywords</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>No</td>
+    <td>/td>
     <td></td>
   </tr>
 </table>
@@ -839,28 +879,36 @@ The application name is shown in the application list. As everything inside the 
     <td>Yes</td>
     <td>No</td>
     <td>100</td>
-  </tr>   
+  </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
     <td>Yes</td>
-    <td>Application Name</td>
+    <td>General Information / Title</td>
     <td>Yes</td>
     <td>No</td>
     <td>Unlimited</td>
   </tr>
   <tr>
-    <td>SK T-Store</td>
+    <td>AppLand</td>
     <td>Yes</td>
-    <td>Basic Information / App Title</td>
+    <td>Information / App Name</td>
     <td>Yes</td>
     <td>No</td>
-    <td>50</td>
+    <td>Unlimited</td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>Yes</td>
+    <td>Title</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Unlimited</td>
   </tr>
 </table>
 
-##### description/texts/keywords
+##### description/texts/featuress
 
-Required. 
+Optional. 
 No attributes. 
 
 Comma separated the list of keywords. As everything inside the `<description>` tag can be localized using `<description-localization>` section.
@@ -939,13 +987,30 @@ Comma separated the list of keywords. As everything inside the `<description>` t
     <td>Not one string but a list of keywords</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>Yes</td>
+    <td>Description / Product Feature Bullets</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Unlimited number, minimum 3 bullets</td>
     <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>Yes</td>
+    <td>Information / Keywords</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Unlimited number</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
   </tr>
 </table>
 
@@ -1031,22 +1096,30 @@ Short application description is used in the app lists next to the app title. So
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>CodeNgo</td>
+    <td>Yes</td>
+    <td>Description / Short Description</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>1200</td>
     <td></td>
   </tr>
   <tr>
-    <td>SK T-Store</td>
+    <td>AppLand</td>
     <td>Yes</td>
-    <td>App Detail / Summary</td>
+    <td>Information / Short Description</td>
     <td>Yes</td>
+    <td>YEs</td>
+    <td>90</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
-    <td>32</td>
-    <td>Shown below app name like a slogan</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
@@ -1169,27 +1242,36 @@ The full application description is shown on the product page. You can include s
     <td>Plain text</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
     <td>Yes</td>
-    <td>Application Description</td>
+    <td>Description / Full Description</td>
     <td>Yes</td>
     <td>No</td>
-    <td>Unlimited</td>
-    <td>Some HTML subset</td>
+    <td>4000</td>
+    <td>Plain text</td>
   </tr>
   <tr>
-    <td>SK T-Store</td>
+    <td>AppLand</td>
     <td>Yes</td>
-    <td>App Detail / Description</td>
+    <td>Information /  Description</td>
     <td>Yes</td>
     <td>No</td>
-    <td>1300 Korean words, or 4000 English symbols</td>
-    <td>Some HTML subset</td>
+    <td>4000</td>
+    <td>Plain text</td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>Yes</td>
+    <td>Description</td>
+    <td>Yes</td>
+    <td>No</td>
+    <td>4000</td>
+    <td>Plain text</td>
   </tr>
 </table>
 
 ##### description/texts/features
-Required.
+Optional.
 No attributes.
 
 Some stores support separate feature list (most assumes that the feature list is included into the full description). Each `<feature>` subtag should contain one feature description. There should be between 3 to 5 `<feature>` subtags. As everything inside the `<description>` tag can be localized using `<description-localization>` section.
@@ -1269,8 +1351,26 @@ Example:
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>Yes</td>
+    <td>Description / Product Feature Bullets</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Unlimited</td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
     <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>No</td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -1701,15 +1801,6 @@ High resolution application icon. Must be in PNG format. Different stores requir
     <td>Any</td>
     <td>PNG</td>
   </tr>
-  <tr>
-    <td>SK T-Store</td>
-    <td>Yes</td>
-    <td>App Image / Icon</td>
-    <td>Yes</td>
-    <td>No</td>
-    <td>212x212</td>
-    <td>JPEG, PNG, GIF or BMP</td>
-  </tr>
 </table>
 
 ##### description/images/large-promo
@@ -1927,7 +2018,7 @@ A small promotion picture is usually used by the stores on a mobile device for p
 Required. 
 No attributes. 
 
-Contains several `<screenshot>` subtags. Each `<screenshot>` subtag describes one screenshot. Different stores use different number of screenshots. You should provide at least four screenshots to support all the stores. If you provide more screenshots than a store can use the first screenshots are used. 
+Contains several `<screenshot>` subtags. Each `<screenshot>` subtag describes one screenshot. Different stores use different number of screenshots. You should provide at least two screenshots to support all the stores. If you provide more screenshots than a store can use the first screenshots are used. 
 
 ##### description/images/screenshots/screenshot
 Required. 
@@ -2063,16 +2154,6 @@ Example:
     <td>JPG, PNG</td>
     <td>1-3</td>
   </tr>
-  <tr>
-    <td>SK T-Store</td>
-    <td>Yes</td>
-    <td>App Image / Screenshots</td>
-    <td>Yes</td>
-    <td>No</td>
-    <td>240x180 - 640x480</td>
-    <td>JPG, PNG, GIF</td>
-    <td>1-3</td>
-  </tr>
 </table>
 
 #### description/videos
@@ -2177,14 +2258,6 @@ then tag value should be just `4YcBHQ2fCDE`. Like:
     <td></td>
     <td></td>
   </tr>
-  <tr>
-    <td>SK T-Store</td>
-    <td>Yes</td>
-    <td>App Detail / Support URL</td>
-    <td>No</td>
-    <td>No</td>
-    <td></td>
-  </tr>
 </table>
 
 ##### description/videos/video-file
@@ -2268,15 +2341,6 @@ Some stores don't support including of YouTube videos but do support uploaded vi
   </tr>
   <tr>
     <td>AppsLib</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>SK T-Store</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -3382,14 +3446,6 @@ This tag is ignored for free apps.
     <td>Yes</td>
     <td>20 currencies can be set as base one</td>
   </tr>
-  <tr>
-    <td>SK T-Store</td>
-    <td>Yes</td>
-    <td>App Information / Price</td>
-    <td>KRW</td>
-    <td>Yes</td>
-    <td></td>
-  </tr>
 </table>
 
 #### price/local-price
@@ -3595,14 +3651,14 @@ Example:
     <td>Yes</td>
     <td>Builds / Upload build</td>
     <td>Unlimited</td>
-    <td>Yes</td>
+    <td>No</td>
     <td>No</td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
     <td>Yes</td>
     <td>Binary File(s) / Binary file</td>
-    <td>Unlimited</td>
+    <td>125M, Unlimited using SFTP</td>
     <td>Yes</td>
     <td>No</td>
   </tr>
@@ -3628,7 +3684,7 @@ Example:
     <td>Application / Application file</td>
     <td>66M</td>
     <td>No</td>
-    <td>No</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>NOOK apps</td>
@@ -3639,12 +3695,123 @@ Example:
     <td>No</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
     <td>Yes</td>
     <td>Upload APK file / APK File</td>
-    <td>Not indicated</td>
+    <td>200M</td>
     <td>No</td>
     <td>No</td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>Yes</td>
+    <td>Add APK file / Android application file</td>
+    <td>Unknown</td>
+    <td>No</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>Yes</td>
+    <td>Download Aplication / Application</td>
+    <td>200M/td>
+    <td>No</td>
+    <td>No</td>
+  </tr>
+</table>
+
+### apk-file-with-expansion
+Optional.
+No attributes.
+
+In this section you list your expansion files for additional resources required by your application
+Each application could consist of several expansion files.  
+
+Example:
+```xml
+
+<apk-files>
+  <apk-file>yandexshell2.apk
+    <apk-file-with-expansions>
+      <apk-file-with-expansion>main.314159.com.example.app.obb</apk-file>
+      <apk-file-with-expansion>patch.314160.com.example.app.obb</apk-file>
+    </apk-file-with-expansions>
+    </apk-files>
+</apk-file>
+```
+
+<table>
+  <tr>
+    <th>Store support</th>
+    <th>Supported</th>
+    <th>Name</th>
+    <th>Maximum Expansion file size</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>Yes</td>
+    <td>APK / Upload new APK</td>
+    <td>2GB</td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>Yes</td>
+    <td>Application / Expansion file</td>
+    <td>200M</td>
+  </tr>
+  <tr>
+    <td>NOOK apps</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
@@ -4245,11 +4412,6 @@ Example:
     <td>http://slideme.org/developers/dda</td>
   </tr>
   <tr>
-    <td>&lt;free-from-third-party-copytighted-content&gt;</td>
-    <td>You confirm that your application is free from third-party copyrighted picture, sounds, database or other types of information</td>
-    <td>Used by SK T-Store, more: http://dev.tstore.co.kr/devpoc/iprCenter/iprCenterInfo.omp</td>
-  </tr>
-  <tr>
     <td>&lt;import-export&gt;</td>
     <td>You confirm that you have all the right for your application to import to and export from all the supported countries</td>
     <td>Used by Amazon AppStore. Amazon describes this as "I certify this App may be imported to and exported from the United States and all other countries in which we operate our program or in which you've authorized sales to end users (without the need for us to obtain any license or clearance or take any other action) and is in full compliance with all applicable laws and regulations governing imports and exports, including those applicable to software that makes use of encryption technology."</td>
@@ -4310,12 +4472,6 @@ Example:
     <td>No</td>
     <td></td>
     <td></td>
-  </tr>
-  <tr>
-    <td>SK T-Store</td>
-    <td>Yes</td>
-    <td>Basic Information / Intellectual property rights</td>
-    <td>&lt;free-from-third-party-copytighted-content&gt;</td>
   </tr>
 </table>
 
@@ -5025,48 +5181,6 @@ Application Store Support
   <td>Samsung DRM</td>
 </tr>
 </table>
-
-### SK T-Store
-
-<table>
-<tr>
-  <th>Parameter</th>
-  <th>Value</th>
-</tr>
-<tr>
-  <td>Registration URL</td>
-  <td><a href="http://dev.tstore.co.kr/devpoc/main/main.omp">http://dev.tstore.co.kr/devpoc/main/main.omp</a></td>
-</tr>
-<tr>
-  <td>Distribution agreement URL</td>
-  <td>Public link cannot be found</a></td>
-</tr>
-<tr>
-  <td>AppDF ID</td>
-  <td>tstore</td>
-</tr>
-<tr>
-  <td>Registration fee</td>
-  <td>free</td>
-</tr>
-<tr>
-  <td>Content premoderation</td>
-  <td>Yes</td>
-</tr>
-<tr>
-  <td>Client Application</td>
-  <td>Yes</td>
-</tr>
-<tr>
-  <td>In-App Purchase Support</td>
-  <td>Yes</td>
-</tr>
-<tr>
-  <td>License verification support</td>
-  <td>[To be supplied.]</td>
-</tr>
-</table>
-
 
 Category List
 -------------
