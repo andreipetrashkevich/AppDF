@@ -66,7 +66,7 @@ images/en/smallpromo_kr.png
 
 As you can see the application could include several APK files, the images for different localizations and stores (different stores require different resolution for the app icon and screenshots).If you want fine tuning you could opt to include several sizes for the images though the AppDF will automatically rescale your images to the needed format.
 
-The only naming convention for the files inside AppDF package is that the description XML file should be called `description.xml`. All other files could have any names supported by ZIP, could be placed in the top folder or in any of the subfolders. The names of the additional files are defined in the `description.xml` file.
+The only naming convention for the files inside AppDF package are that the description XML file should be called `description.xml` and the in-app description XML file should be called 'inapp-description.xml'. All other files could have any names supported by ZIP, could be placed in the top folder or in any of the subfolders. The names of the additional files are defined in the `description.xml` file.
 
 Sample Description.xml File
 -------------
@@ -559,7 +559,7 @@ Required. No attributes. Value could be either `application` or `game`.
     <td>APTOiDE</td>
     <td>Yes</td>
     <td>Category</td>
-    <td>Yes/td>
+    <td>Yes</td>
     <td>Application, Games</td>
   </tr>
 </table>
@@ -643,7 +643,7 @@ Required. No attributes. AppDF format has its own list of categories for both ga
     <td>APTOiDE</td>
     <td>Yes</td>
     <td>Category</td>
-    <td>Yes/td>
+    <td>Yes</td>
     <td></td>
   </tr>
 </table>
@@ -719,7 +719,7 @@ Although some stores don't use subcategories AppDF includes as detailed category
   <tr>
     <td>APTOiDE</td>
     <td>No</td>
-    <td>/td>
+    <td></td>
     <td></td>
   </tr>
 </table>
@@ -1120,6 +1120,7 @@ Short application description is used in the app lists next to the app title. So
     <td></td>
     <td></td>
     <td></td>
+    <td></td>
   </tr>
 </table>
 
@@ -1260,7 +1261,7 @@ The full application description is shown on the product page. You can include s
     <td>Plain text</td>
   </tr>
   <tr>
-    <td>AppLand</td>
+    <td>APTOiDE</td>
     <td>Yes</td>
     <td>Description</td>
     <td>Yes</td>
@@ -3202,7 +3203,7 @@ Example:
   <tr>
     <td>CodeNgo</td>
     <td>Yes</td>
-    <td>Rating", </td>
+    <td>Rating</td>
     <td>Yes</td>
     <td></td>
   </tr>
@@ -4008,7 +4009,7 @@ Example:
     <td>APTOiDE</td>
     <td>Yes</td>
     <td>Download Aplication / Application</td>
-    <td>200M/td>
+    <td>200M</td>
     <td>No</td>
     <td>No</td>
   </tr>
@@ -4367,7 +4368,7 @@ Set value of this tag to `yes` if your application requires internet connection 
   <tr>
     <td>AppLand</td>
     <td>Yes</td>
-    <td>Connects to network</td>
+    <td>Rating/Connects to network</td>
     <td></td>
   </tr>
   <tr>
