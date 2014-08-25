@@ -1449,11 +1449,29 @@ Maximum length: 500.
     <td>This information will go in the application's changelog and can not be changed</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
-    <td>Yes</td>
-    <td>Upload APK file / Release Description</td>
-    <td>Yes</td>
+    <td>CodeNgo</td>
     <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>Yes</td>
+    <td>Version description</td>
+    <td>No</td>
+    <td>Yes</td>
+    <td>500</td>
+    <td>Describes the changes of the latest version</td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>Yes</td>
+    <td>News</td>
+    <td>No</td>
+    <td>Yes</td>
     <td>Unlimited</td>
     <td></td>
   </tr>
@@ -1551,8 +1569,25 @@ you, your account or your email addresses with anyone. Period.</privacy-policy>
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>Yes</td>
+    <td>General Information/Privacy Policy (URL)/td>
     <td>No</td>
+    <td>No</td>
+    <td>Full privacy policy text is supported as URL option</td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>No</td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -1654,12 +1689,29 @@ us even if it is our fault.</eula>
     <td>Only text, no URL option, maximum 5000 symbols</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>Yes</td>
+    <td>General Information/License</td>
+    <td>Yes</td>
+    <td>No</td>
+    <td>Only predefined licenses</td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
     <td>No</td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
   </tr>
 </table>
 
@@ -1793,13 +1845,31 @@ High resolution application icon. Must be in PNG format. Different stores requir
     <td>PNG, to transparency</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
     <td>Yes</td>
-    <td>Application icon</td>
+    <td>Images&Media/AppIcon</td>
+    <td>Yes</td>
     <td>No</td>
+    <td>512x512</td>
+    <td>PNG, GIF</td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>Yes</td>
+    <td>Media/Icon</td>
+    <td>Yes</td>
     <td>No</td>
-    <td>Any</td>
-    <td>PNG</td>
+    <td>512x512</td>
+    <td>png jpg jpeg</td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>Yes</td>
+    <td>Icon HD</td>
+    <td>Yes</td>
+    <td>No</td>
+    <td>512x512</td>
+    <td>PNG, to transparency</td>
   </tr>
 </table>
 
@@ -1898,7 +1968,25 @@ Large promotion picture usually used by the stores on the PC websites, some stor
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>Yes</td>
+    <td>Images&Media/Promotional image</td>
+    <td>Yes</td>
+    <td>No</td>
+    <td>1024x500</td>
+    <td>PNG,GIF or JPG</td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>Yes</td>
+    <td>Media / Promo image</td>
+    <td>No</td>
+    <td>No</td>
+    <td>1024x500</td>
+    <td>PNG, JPEG or JPG</td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -2004,7 +2092,25 @@ A small promotion picture is usually used by the stores on a mobile device for p
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -2145,14 +2251,34 @@ Example:
     <td>1-4</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
     <td>Yes</td>
-    <td>Screenshots</td>
+    <td>Images&Media/Screenshots</td>
+    <td>Yes</td>
     <td>No</td>
+    <td>1280x800 or 800x1280</td>
+    <td>JPG,GIF or PNG</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>Yes</td>
+    <td>Media / Screenshots</td>
+    <td>Yes</td>
     <td>No</td>
-    <td>320x240,480x854</td>
-    <td>JPG, PNG</td>
-    <td>1-3</td>
+    <td>320x320  to 1280x1280</td>
+    <td>PNG,JPG or JPEG</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>No</td>
+    <td>Add new screenshots</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>320x320  to 1280x1280</td>
+    <td>PNG,JPEG or JPG</td>
+    <td>1-9</td>
   </tr>
 </table>
 
@@ -2251,12 +2377,28 @@ then tag value should be just `4YcBHQ2fCDE`. Like:
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
     <td>No</td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>Yes</td>
+    <td>Media / Link to video</td>
+    <td>No</td>
+    <td>No</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>Yes</td>
+    <td>Video</td>
+    <td>No</td>
+    <td>No</td>
+    <td>(Youtube only)</td>
   </tr>
 </table>
 
@@ -2340,7 +2482,25 @@ Some stores don't support including of YouTube videos but do support uploaded vi
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -2496,10 +2656,22 @@ Each application must be labeled with a minimum age allowance according to [ESRB
     <td>Yes</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>Yes</td>
+    <td>Rating</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
     <td>No</td>
     <td></td>
     <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>Yes</td>
+    <td>Age rating</td>
+    <td>Yes</td>
   </tr>
 </table>
 
@@ -2744,7 +2916,21 @@ Example:
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>Yes</td>
+    <td>Rating</td>
+    <td>PEGI, ESRB, GRB, MJ/DEJUS, FSK</td>
+    <td>other certificates supported too</td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -2880,11 +3066,25 @@ Example:
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
     <td>Yes</td>
-    <td>Adult Content</td>
+    <td>Maturity, Nudity, Violence, Profanity, Gambling,  Alcohol, tobacco, drugs</td>
+    <td>Yes</td>
+    <td>list of 13 checkboxes</td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
     <td>No</td>
-    <td>Adult Content is one of the categories</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
@@ -3000,7 +3200,21 @@ Example:
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>Yes</td>
+    <td>Rating", </td>
+    <td>Yes</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -3138,7 +3352,21 @@ Example 2:
     <td>Supports only US and UK today</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -3229,7 +3457,19 @@ If presented this tag defines a date from which the application can be distribut
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>Yes</td>
+    <td>Distribution&Pricing/Available Contries</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -3320,7 +3560,19 @@ If presented this tag defines a final date of application distribution. Stores t
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -3439,12 +3691,28 @@ This tag is ignored for free apps.
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
     <td>Yes</td>
-    <td>Application Price</td>
-    <td>USD, other</td>
+    <td>Distribution&Pricing/Per download billing</td>
+    <td>USD</td>
     <td>Yes</td>
-    <td>20 currencies can be set as base one</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>Yes</td>
+    <td>Publishing options/Price</td>
+    <td>USD</td>
+    <td>Yes</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>Yes</td>
+    <td>Price</td>
+    <td>USD ???</td>
+    <td>Yes</td>
+    <td></td>
   </tr>
 </table>
 
@@ -3533,7 +3801,21 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
     <td>Only UK price in GBP is supported now</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>Yes</td>
+    <td>Distribution&Pricing/Set price per country</td>
+    <td>Yes</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td>Only across stores</td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -3608,7 +3890,19 @@ This tag is ignored for paid apps.
     <td>There is no support for full version package name</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -3796,12 +4090,6 @@ Example:
     <td></td>
   </tr>
   <tr>
-    <td>CodeNgo</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>AppLand</td>
     <td>No</td>
     <td></td>
@@ -3919,7 +4207,19 @@ Set value of this tag to `yes` if your application requires root access for work
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -3983,7 +4283,19 @@ Set value of this tag to `yes` if your application requires Google Play to be in
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -4047,7 +4359,19 @@ Set value of this tag to `yes` if your application requires internet connection 
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>Yes</td>
+    <td>Connects to network</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -4122,7 +4446,19 @@ Example:
     <td>Does not support other languages but Enlish</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -4195,9 +4531,21 @@ Example:
     <td>Have separate flags for NOOK models support in the store-specific section</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
-    <td>Yes</td>
-    <td>All Your Applications / Published/Unpublished</td>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>No</td>
+    <td></td>
     <td></td>
   </tr>
 </table>
@@ -4293,7 +4641,19 @@ Example 2:
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>Yes</td>
+    <td>General Information/Screen Resolutions</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -4365,7 +4725,21 @@ Please detail any special requirements to test your app. If your application req
     <td></td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -4468,10 +4842,22 @@ Example:
     <td>&lt;slideme-agreement&gt;</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
     <td>No</td>
     <td></td>
     <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>Yes</td>
+    <td>Agreement</td>
+    <td>&lt;Aptoide-agreement&gt;</td>
   </tr>
 </table>
 
@@ -4550,7 +4936,21 @@ No attributes.
     <td>No</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -4620,7 +5020,21 @@ No attributes.
     <td>No</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>Yes</td>
+    <td>Support information/Email</td>
+    <td></td>
+    <td>not required</td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -4690,7 +5104,21 @@ No attributes.
     <td>No</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>Yes</td>
+    <td>Support information/Website</td>
+    <td></td>
+    <td>not required</td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
     <td>No</td>
     <td></td>
     <td></td>
