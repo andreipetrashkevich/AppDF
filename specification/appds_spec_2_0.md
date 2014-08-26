@@ -5469,7 +5469,7 @@ Example:
     <td>Yes</td>
     <td>General/App version</td>
     <td>text</td>
-    <td>"</td>
+    <td></td>
   </tr>
   <tr>
     <td>operating-systems</td>
@@ -5536,7 +5536,7 @@ Example:
   </tr>
 </table>
 
-Possible `<operating-systems<>` values:
+Possible `<operating-systems>` values:
 * Android 5.0
 * Android 4.3
 * Android 4.2
@@ -5775,7 +5775,7 @@ Application Store Support
 </tr>
 <tr>
   <td>In-App Purchase Support</td>
-  <td>No</td>
+  <td>Yes</td>
 </tr>
 <tr>
   <td>License verification support</td>
@@ -5816,7 +5816,7 @@ Application Store Support
 </tr>
 <tr>
   <td>In-App Purchase Support</td>
-  <td>No</td>
+  <td>Yes</td>
 </tr>
 <tr>
   <td>License verification support</td>
@@ -5864,6 +5864,130 @@ Application Store Support
   <td>Samsung DRM</td>
 </tr>
 </table>
+
+### CodeNgo
+
+<table>
+<tr>
+  <th>Parameter</th>
+  <th>Value</th>
+</tr>
+<tr>
+  <td>Registration URL</td>
+  <td><a href="http://www.codengo.com/signup">http://www.codengo.com/signup</a></td>
+</tr>
+<tr>
+  <td>Distribution agreement URL</td>
+  <td><a href="http://www.codengo.com/terms/">http://www.codengo.com/terms/</a></td>
+</tr>
+<tr>
+  <td>AppDF ID</td>
+  <td>codengo</td>
+</tr>
+<tr>
+  <td>Registration fee</td>
+  <td>free</td>
+</tr>
+<tr>
+  <td>Content premoderation</td>
+  <td>No</td>
+</tr>
+<tr>
+  <td>Client Application</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>In-App Purchase Support</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>License verification support</td>
+  <td>No</td>
+</tr>
+</table>
+
+### Appland
+
+<table>
+<tr>
+  <th>Parameter</th>
+  <th>Value</th>
+</tr>
+<tr>
+  <td>Registration URL</td>
+  <td><a href="http://developer.applandinc.com/appland/register">http://developer.applandinc.com/appland/register</a></td>
+</tr>
+<tr>
+  <td>Distribution agreement URL</td>
+  <td><a href="http://developer.applandinc.com/print/appland/terms">http://developer.applandinc.com/print/appland/terms</a></td>
+</tr>
+<tr>
+  <td>AppDF ID</td>
+  <td>appland</td>
+</tr>
+<tr>
+  <td>Registration fee</td>
+  <td>free</td>
+</tr>
+<tr>
+  <td>Content premoderation</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>Client Application</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>In-App Purchase Support</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>License verification support</td>
+  <td>No</td>
+</tr>
+</table>
+
+### Apptoide
+
+<table>
+<tr>
+  <th>Parameter</th>
+  <th>Value</th>
+</tr>
+<tr>
+  <td>Registration URL</td>
+  <td><a href="https://www.aptoide.com/account/new-user">https://www.aptoide.com/account/new-user</a></td>
+</tr>
+<tr>
+  <td>Distribution agreement URL</td>
+  <td><a href="https://www.aptoide.com/page/terms">https://www.aptoide.com/page/terms</a></td>
+</tr>
+<tr>
+  <td>AppDF ID</td>
+  <td>apptoide</td>
+</tr>
+<tr>
+  <td>Registration fee</td>
+  <td>free</td>
+</tr>
+<tr>
+  <td>Content premoderation</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>Client Application</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>In-App Purchase Support</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>License verification support</td>
+  <td>No</td>
+</tr>
+</table>
+
 
 Category List
 -------------
