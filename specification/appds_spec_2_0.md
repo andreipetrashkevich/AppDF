@@ -133,7 +133,7 @@ Sample Description.xml File
       <large-promo width="1024" height="500">promo.png</large-promo>
       <!--Small promo image (to be shown on a device) must be in JPG or PNG format and have 180x120 size-->
       <small-promo width="180" height="120">feature.png</small-promo>
-      <!--Minimum four screenshots should be presented-->
+      <!--Minimum two screenshots should be presented-->
       <!--If you want to add several resolutions of the same screenshot make sure these two tags will have the same "index" attribute-->
       <!--480x800 screen resolution in PNG format must be included for each screenshot-->
       <!--It is recommended to have 1080x1920 (HD) and 1920×1200 (tablets) resolutions for each screenshot as well-->
@@ -449,6 +449,7 @@ List of Tags:
 	* [local-price](#pricelocal-price)
 	* [trial-version](#pricetrial-version)
 * [apk-files](#apk-files)
+	* [apk-file-with-expansion](#apk-file-with-expansion)
 * [requirements](#requirements)
 	* [features](#requirementsfeatures)
 		* [root](#requirementsroot)
@@ -906,7 +907,7 @@ The application name is shown in the application list. As everything inside the 
   </tr>
 </table>
 
-##### description/texts/featuress
+##### description/texts/keywords
 
 Optional. 
 No attributes. 
@@ -989,10 +990,10 @@ Comma separated the list of keywords. As everything inside the `<description>` t
   <tr>
     <td>CodeNgo</td>
     <td>Yes</td>
-    <td>Description / Product Feature Bullets</td>
+    <td>Description / Keywords</td>
     <td>Yes</td>
     <td>Yes</td>
-    <td>Unlimited number, minimum 3 bullets</td>
+    <td>Maximum 30 keywords</td>
     <td>No</td>
   </tr>
   <tr>
@@ -1461,7 +1462,7 @@ Maximum length: 500.
   <tr>
     <td>AppLand</td>
     <td>Yes</td>
-    <td>Version description</td>
+    <td>Information/Version description</td>
     <td>No</td>
     <td>Yes</td>
     <td>500</td>
@@ -2121,7 +2122,7 @@ A small promotion picture is usually used by the stores on a mobile device for p
   </tr>
 </table>
 
-##### description/images/screenshots
+##### description/images/	s
 Required. 
 No attributes. 
 
@@ -3090,7 +3091,7 @@ Example:
 </table>
 
 #### content-description/included-activities
-Required.
+Optional.
 No attributes.
 
 Contains several subtags each describing one type of the application activities that may require user or parent understanding and permission but that is not covered by Android permission system. Each activity tag could have either `no`, `yes` value. 
@@ -4662,7 +4663,7 @@ Example 2:
 </table>
 
 ### testing-instructions
-Required.
+Optional.
 No attributes.
 Maximum length: 4000.
 
@@ -4727,9 +4728,9 @@ Please detail any special requirements to test your app. If your application req
   </tr>
   <tr>
     <td>CodeNgo</td>
+    <td>Yes</td>
+    <td>Description/Release Notes</td>
     <td>No</td>
-    <td></td>
-    <td></td>
     <td></td>
   </tr>
   <tr>
@@ -4869,14 +4870,88 @@ No attributes.
 Example:
 ```xml
 <customer-support>
+  <company>Yandex</company>
   <phone>+1 (555) 1234-56-78</phone>
   <email>support@yandex-team.ru</email>
   <website>http://www.yandex.ru/support</website>
 </customer-support>
 ```
 
+#### customer-support/company
+Optional.
+No attributes.
+
+<table>
+  <tr>
+    <th>Store support</th>
+    <th>Supported</th>
+    <th>Name</th>
+    <th>Required</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>NOOK apps</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>CodeNgo</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>Yes</td>
+    <td>Support Information/Company</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>APTOiDE</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
 #### customer-support/phone
-Required.
+Optional.
 No attributes.
 
 <table>
@@ -5115,8 +5190,8 @@ No attributes.
     <td>AppLand</td>
     <td>Yes</td>
     <td>Support information/Website</td>
+    <td>No</td>
     <td></td>
-    <td>not required</td>
   </tr>
   <tr>
     <td>APTOiDE</td>
