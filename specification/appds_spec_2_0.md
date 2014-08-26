@@ -1110,7 +1110,7 @@ Short application description is used in the app lists next to the app title. So
     <td>Yes</td>
     <td>Information / Short Description</td>
     <td>Yes</td>
-    <td>YEs</td>
+    <td>Yes</td>
     <td>90</td>
     <td></td>
   </tr>
@@ -5285,8 +5285,16 @@ Top level subtags correspond to the application AppDF ids from the following tab
     <td>nook</td>
   </tr>
   <tr>
-    <td>AppsLib</td>
-    <td>appslib</td>
+    <td>codeNgo</td>
+    <td>codengo</td>
+  </tr>
+  <tr>
+    <td>AppLand</td>
+    <td>appland</td>
+  </tr>
+  <tr>
+    <td>Aptoide</td>
+    <td>aptoide</td>
   </tr>
 </table>
 
@@ -5436,6 +5444,177 @@ Possible `<license-type>` values:
 * New BSD License
 * Other / Proprietary
 * The MIT License
+
+#### store-specific/codengo
+Optional.
+No attributes.
+
+Example:
+```xml
+<codengo>
+  <operating-systems>Android 4.3</operating-systems>
+</codengo>
+```
+
+<table>
+  <tr>
+    <th>Tag</th>
+    <th>Required</th>
+    <th>CodeNgo name</th>
+    <th>Possible values</th>
+    <th>Comments</th>
+  </tr>
+  <tr>
+    <td>app-version</td>
+    <td>Yes</td>
+    <td>General/App version</td>
+    <td>text</td>
+    <td>"</td>
+  </tr>
+  <tr>
+    <td>operating-systems</td>
+    <td>Yes</td>
+    <td>General/Operating Systems</td>
+    <td>one from list below</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>copyright</td>
+    <td>Yes</td>
+    <td>General/Copyright</td>
+    <td>text</td>
+    <td>name of the company having the copyright</td>
+  </tr>
+  <tr>
+    <td>license-type</td>
+    <td>Yes</td>
+    <td>General / License</td>
+    <td>One from the list below</td>
+    <td>Default value is "All Rights Reserved"</td>
+  </tr>
+  <tr>
+    <td>original-release-date</td>
+    <td>Yes</td>
+    <td>General / Original Release Date</td>
+    <td>date</td>
+    <td>if the fist time publishing , then it equals Release Date</td>
+  </tr>
+  <tr>
+    <td>allow-free-app-of-the-day</td>
+    <td>No</td>
+    <td>Distribution&Pricing/Allow Free App of the day</td>
+    <td>Yes/No</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>education-discount</td>
+    <td>No</td>
+    <td>Distribution&Pricing/Education Discount</td>
+    <td>Yes/No</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>advertising</td>
+    <td>No</td>
+    <td>Distribution&Pricing/advertising</td>
+    <td>Yes/No</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ad-network-urls</td>
+    <td>No</td>
+    <td>Distribution&Pricing/ad network url(s)</td>
+    <td>list of ad links</td>
+    <td>It is required if advertising tag is enabled</td>
+  </tr>
+  <tr>
+    <td>one-liner</td>
+    <td>Yes</td>
+    <td>Description/One Liner</td>
+    <td>text</td>
+    <td>Short description of the app in one sensence</td>
+  </tr>
+</table>
+
+Possible `<operating-systems<>` values:
+* Android 5.0
+* Android 4.3
+* Android 4.2
+* Android 4.1
+* Android 4.0.3
+* Android 4.0
+* Android 3.1-3.2
+* Android 2.3.3
+* Android 2.3
+* Android 2.2
+* Android 2.1
+
+Possible `<license-type>` values:
+* All Rights Reserved
+* Apache License 2.0
+* Commercial Royalty-Free
+* Common Development and Distribution License (CDDL)
+* Eclipse Public License (EPL)
+* FREE Licensed Closed Source - Public Domain
+* GNU AFFERO GENERAL PUBLIC LICENSE (AGPL) v3
+* GNU General Public License (GPL) v2
+* GNU General Public License (GPL) v3
+* GNU Library General Public License (LGPL)
+* GNU Library General Public License (LGPL)  v3
+* Mozilla Public License 1.1 (MPL)
+* New BSD License
+* Other / Proprietary
+* The MIT License
+
+#### store-specific/appland
+Optional.
+No attributes.
+
+Example:
+```xml
+<appland>
+  <geographical-position>45.67, 88.56</geographical-position>
+</appland>
+```
+
+<table>
+  <tr>
+    <th>Tag</th>
+    <th>Required</th>
+    <th>Appland name</th>
+    <th>Possible values</th>
+    <th>Comments</th>
+  </tr>
+  <tr>
+    <td>geographical-position</td>
+    <td>No</td>
+    <td>Geographical position</td>
+    <td>Geo Coordinate is a point location which consists of exactly one coordinate pair</td>
+    <td>Consumers nearby will see the app through the top list "Apps near.</td>
+  </tr>
+  <tr>
+    <td>offer-your-premium-app-for-free</td>
+    <td>No</td>
+    <td>Publishing options/Offer your premium app for free</td>
+    <td>Yes/No</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>feature-your-app</td>
+    <td>No</td>
+    <td>Publishing options/Feature your app</td>
+    <td>Yes/No</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>publish-this-app-in-future-stores</td>
+    <td>No</td>
+    <td>Publishing options/Publish this app in future stores</td>
+    <td>Yes/No</td>
+    <td></td>
+  </tr>
+</table>
+
 
 Application Store Support
 -------------

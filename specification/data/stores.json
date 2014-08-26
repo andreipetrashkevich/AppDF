@@ -5,7 +5,7 @@
   "appchina" : "AppChina",
   "appland" : "Appland",
   "appslib" : "AppsLib",
-  "aptoid" : "Aptoid",
+  "aptoide" : "Aptoide",
   "dcn" : "D.cn Games Center",
   "getjar" : "GetJar",
   "gfan" : "gFan",
@@ -38,4 +38,5 @@
   "fdroid" : "fdroid",
   "andapponline" : "andapponline",
   "chinamobile" : "chinamobile"
+  "codengo" : "codeNgo"
 }	
